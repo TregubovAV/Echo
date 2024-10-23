@@ -18,7 +18,7 @@ class PostmanEchoTest {
 // Проверки
                 .then().log().all()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("new data"));
+                .body("data", org.hamcrest.Matchers.equalTo("some data"));
 
 
 
